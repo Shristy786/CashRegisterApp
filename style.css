@@ -9,37 +9,32 @@ body{
 {
    display:flex;
    flex-direction: column;
-   width:50vw;
+   width:50%;
    justify-content: center;
    text-align: center;
-   min-height: 100vh;
-   padding:2rem;
-    margin: 2rem;
+   height: 100%;
+   padding-left:25%;
+   
+   
+
+
    
   
  
 }
 .head{
     background-color: var(--primary-color);
-    /* width:100%;
+    width:50%;
     height: 100%;
-    margin:0 auto;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    display: table-row;
     justify-content: center;
     text-align: center;
-    position:fixed */
-    position: absolute;
-    width: 80%;
-    height: 100%;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    justify-content: center;
-    text-align: center;
+    position:fixed;
+    margin-left:25%;
+    
+  
+   
+   
+    
 }
 h1{
     text-align: center;
